@@ -38,6 +38,17 @@ Here is the schema and explanation of each variable in the files:
 * person (str) - customer id
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
+   
+# Libraries/Dependencies
+- pandas
+- numpy 
+- math
+- json
+- datetime 
+- seaborn 
+- matplotlib
+- sklearn 
+
 
 # Conclusion 
 Based on the evaluation of metrics from five models, it appears the graient boosting model is the most suitable among five models, with a test f1 score 0.78 and test accuracy score 0.74. Logistic regression, random forest, dicision tree all have better performance than the benchmark model.    
